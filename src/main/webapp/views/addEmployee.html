@@ -17,19 +17,18 @@
         <label for="name">Employee Name:</label>
         <input th:field="*{name}" type="text" class="form-control" name="name" id="name"
                placeholder="Enter employee name">
-        <small th:errors="*{name}" class="form-text text-danger text-muted" style="color: red !important; "></small>
+        <small th:errors="*{name}" class="form-text text-danger"></small>
         <label for="address">Address:</label>
         <input th:field="*{address}" type="text" class="form-control" name="address" id="address"
                placeholder="Enter address">
-        <small th:errors="*{address}" class="form-text text-danger text-muted" style="color: red !important;"></small>
+        <small th:errors="*{address}" class="form-text text-danger"></small>
         <label for="dateOfBirth">Date of Birth:</label>
         <input th:field="*{dateOfBirth}" type="date" class="form-control" name="dateOfBirth" id="dateOfBirth">
-        <small th:errors="*{dateOfBirth}" class="form-text text-danger text-muted"
-               style="color: red !important;"></small>
+        <small th:errors="*{dateOfBirth}" class="form-text text-danger"></small>
         <label for="phone">Phone number:</label>
         <input th:field="*{phone}" type="text" class="form-control" name="phone" id="phone"
                placeholder="Enter phone number">
-        <small th:errors="*{phone}" class="form-text text-danger text-muted" style="color: red !important;"></small>
+        <small th:errors="*{phone}" class="form-text text-danger "></small>
     </div>
     <input type="submit">
 </form>
